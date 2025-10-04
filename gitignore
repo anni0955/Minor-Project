@@ -1,0 +1,36 @@
+# ==============================
+# Git Ignore for ML Projects
+# ==============================
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code settings
+.vscode/
+
+# Environment or dependency files
+.env
+.venv/
+*.egg-info/
+
+# Dataset files (optional — you can remove if small)
+*.csv
+*.xlsx
+*.zip
+*.h5
+*.pkl
+
+# Model outputs or temporary files
+*.log
+*.tmp
+*.json
+
+# OS files
+.DS_Store
+Thumbs.db
